@@ -1,0 +1,51 @@
+body
+{
+    padding:0;
+    margin:0;
+    color:black;
+    background-image: url('signup1.jpg');
+    background-size: cover;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 18px;
+}
+.container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+}
+fieldset
+{
+    border:2px dashed rgb(83, 123, 61);
+    border-radius: 10px;
+    width:600px;
+    height:400px;
+}
+legend
+{
+    padding:15px;
+}
+.label{
+    display:flex;
+   padding-left: 110px;
+}
+.label1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 110px;
+}
+input{border-radius: 9px;}
+input[type="submit"],input[type="reset"]
+{
+    position: relative;
+    left: 50px;
+    margin-left: 70px;
+    width:150px;
+    height:30px;
+    background-color: blanchedalmond;
+    border: 1px solid goldenrod;
+}
+
